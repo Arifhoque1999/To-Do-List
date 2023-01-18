@@ -83,6 +83,9 @@ button {
   width: 10%;
   background-color: transparent;
 }
+.add i:hover{
+color: deeppink;
+}
 .completed-div {
   margin-top: 10px;
   display: flex;
@@ -129,6 +132,13 @@ ul li {
   font-weight: bold;
   font-family: sans-serif;
 }
+.delete{
+  visibility: hidden;
+}
+li:hover>.delete{
+visibility: visible;
+}
+
 #check-box {
   margin-left: 5%;
 }
@@ -234,9 +244,10 @@ ul li:hover {
   font-weight: bold;
   font-family: sans-serif;
 }
-.delete{
-  visibility: hidden;
+
+#button1:hover{
+  background-color: green;
 }
-li:hover>.delete{
-visibility: visible;
+#button2:hover{
+  background-color: red;
 }
